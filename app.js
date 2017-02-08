@@ -18,4 +18,4 @@ const argv = yargs
 
   console.log(argv);
 
-  geocode.geocodeAddress(argv);
+  geocode.geocodeAddress(argv.address);
